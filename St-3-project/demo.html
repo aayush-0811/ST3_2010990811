@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Your Weight on Other Worlds | Exploratorium</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ever wonder what you might weigh on Mars or The Moon? Here's your chance to find out." />
+	<link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+
+	<script src="demo.js"></script>
+
+</head>
+<body>
+
+<div id="intro">
+	<h1 class="fancytype">
+		YOUR WEIGHT ON OTHER WORLDS 
+	</h1>
+	<h3>
+		Ever wonder what you might weigh on Mars or The Moon? Here's your chance to find out. 
+	</h3>
+</div>
+<h3 class="todo fancytype">
+	TO DO &amp; NOTICE: 
+</h3>
+<ul>
+	
+	<li>Fill in your weight below in the space indicated. You can enter your weight in any unit you wish.</li>
+	<li>Click on the "Calculate" button.</li>
+	<li>Notice that the weights on other worlds will automatically fill in. Notice that your weight is different on the different worlds.</li>
+</ul>
+<form method="post">
+	<div id="enterweight" class="fancytype">
+		ENTER YOUR WEIGHT HERE &#8594; 
+		<input class="weight-in" type="text" name="wt" size="30" aria-label="Enter Your Weight" style="height: 30px; border-radius: 10%; text-align: center;">
+		<input class="weight-in" type="button" size="30" value="Calculate" onclick="compute_weight(this.form)" style="height: 30px;border-radius: 10%;">
+	</div>
+	<section>
+		<h2 class="fancytype">
+		The Planets 
+	</h2>
+	<div class="milkyway">
+		
+		<div class="planet">
+			<h4>
+				MERCURY 
+			</h4>
+			<img src="images/mercury.jpg"  alt="Mercury"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputmrc" size="18" aria-label="Your weight on Mercury">
+		</div>
+		<div class="planet">
+			<h4>
+				VENUS 
+			</h4>
+			<img src="images/venus.jpg"  alt="Venus"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputvn" size="18" aria-label="Your weight on Venus">
+		</div>
+		<div class="planet">
+			<h4>
+				THE MOON 
+			</h4>
+			<img src="images/moon.jpg"  alt="The Moon"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputmoon" size="18" aria-label="Your weight on the Moon">
+		</div>
+		<div class="planet">
+			<h4>
+				MARS 
+			</h4>
+			<img src="images/mars.jpg"  alt="Mars"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputmars" size="18" aria-label="Your weight on Mars">
+		</div>
+		<div class="planet">
+			<h4>
+				JUPITER 
+			</h4>
+			<img src="./images/jupiter.jpg"  alt="Jupiter"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputjp" size="18" aria-label="Your weight on Jupiter">
+		</div>
+		<div class="planet">
+			<h4>
+				SATURN 
+			</h4>
+			<img src="./images/saturn.jpg"  alt="Saturn"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputsat" size="18" aria-label="Your weight on Saturn">
+		</div>
+		<div class="planet">
+			<h4>
+				URANUS 
+			</h4>
+			<img src="./images/uranus.jpg"  alt="Uranus"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputur" size="18" aria-label="Your weight on Uranus">
+		</div>
+		<div class="planet">
+			<h4>
+				NEPTUNE 
+			</h4>
+			<img src="./images/neptune.jpg"  alt="Neptune"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputnpt" size="18" aria-label="Your weight on Neptune">
+		</div>
+		<div class="planet">
+			<h4>
+				PLUTO 
+			</h4>
+			<img src="./images/pluto.jpg"  alt="Pluto"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputplt" size="18" aria-label="Your weight on Pluto">
+		</div>
+		<div class="planet">
+			<h4>
+				SUN 
+			</h4>
+			<img src="./images/sun.jpg"  alt="sun"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputsun" size="18" aria-label="Your weight on sun is">
+		</div>
+		<div class="planet">
+			<h4>
+				EARTH
+			</h4>
+			<img src="images/earth.jpg"  alt="earth"></a><p>
+			Your weight is</p>
+			<input class="weight" type="text" name="outputearth" size="18" aria-label="Your weight on earth is ">
+		</div>
+	</div>
+	</section>
+</body>
+</html>
